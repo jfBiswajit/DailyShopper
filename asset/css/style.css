@@ -1,0 +1,104 @@
+/* Default setting */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+  margin: 0 auto;
+}
+
+/* Header Settings */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo h3 {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 1.8rem;
+  color: #e74c3c;
+}
+
+.notice-box {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+/* New task container */
+#new-task-container {
+  padding: 1.5rem;
+  background: #ecf0f1;
+}
+
+#new-task-container form {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#new-task-name,
+#new-taks-amount {
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  border: 0;
+}
+
+#new-task-name {
+  width: 50%;
+}
+
+#new-taks-amount {
+  width: 16%;
+}
+
+#submit {
+  padding: 0 0.8rem;
+  border: 0;
+  border-radius: 0.2rem;
+  background: #7f8c8d;
+  color: #fff;
+}
+
+/* Show list container */
+#show-list-container {
+  height: 61.6vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#show-list-container ul {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+#show-list-container ul li {
+  padding: 0.8rem;
+  margin-bottom: 0.3rem;
+  border-radius: 0.2rem;
+  border: 1px solid#2c3e50;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+#show-list-container ul li .show-details i {
+  display: none;
+  padding: 0 0.5rem;
+}
+
+#show-list-container ul li:hover .show-details i {
+  color: rgb(221, 31, 31);
+  display: inline-block;
+}
+
+/* Main footer */
+footer#main-footer {
+  padding: 1rem;
+  background: #ecf0f1;
+  text-align: center;
+  font-weight: 300;
+}
