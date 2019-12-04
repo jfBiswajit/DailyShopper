@@ -65,7 +65,7 @@ body {
 
 /* Show list container */
 #show-list-container {
-  height: 61.6vh;
+  height: 63.6vh;
   overflow-y: scroll;
   overflow-x: hidden;
 }
