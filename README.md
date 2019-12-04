@@ -16,11 +16,11 @@ DailyShopper always updates remaining balance after delete or create a new list.
 
 ### Home
 
-![Admin Panel](asset/screenshort/home.png?raw=true 'Title')
+![Index](asset/Screenshort/home.png?raw=true 'Title')
 
 ### Shopping List
 
-![Admin Panel](asset/screenshort/shop_list.png?raw=true 'Title')
+![Shoping List](asset/Screenshort/shop_list.png?raw=true 'Title')
 
 ## License
 
