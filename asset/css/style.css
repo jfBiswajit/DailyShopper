@@ -9,6 +9,10 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #2c3e50;
   margin: 0 auto;
+  width: 60%;
+  border: 1px solid rgba(0, 0, 0, 0.404);
+  border-radius: 0.5rem;
+  margin-top: 0.6rem;
 }
 
 /* Header Settings */
@@ -30,7 +34,7 @@ body {
 
 /* New task container */
 #new-task-container {
-  padding: 1.5rem;
+  padding: 0.8rem;
   background: #ecf0f1;
 }
 
@@ -59,7 +63,7 @@ body {
   padding: 0 0.8rem;
   border: 0;
   border-radius: 0.2rem;
-  background: #7f8c8d;
+  background: #27ae60;
   color: #fff;
 }
 
@@ -77,9 +81,9 @@ body {
 
 #show-list-container ul li {
   padding: 0.8rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
   border-radius: 0.2rem;
-  border: 1px solid#2c3e50;
+  border: 1px solid rgba(0, 0, 0, 0.219);
   display: flex;
   justify-content: space-between;
   cursor: pointer;
